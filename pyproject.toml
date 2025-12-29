@@ -1,0 +1,24 @@
+[project]
+name = "s14b"
+version = "0.2.0"
+description = "Seraphine Agentic Pipeline"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "comtypes>=1.4.11 ; sys_platform == 'win32'",
+    "dotenv>=0.9.9",
+    "google-genai>=1.16.1",
+    "mcp>=1.25.0",
+    "mss>=10.0.0",
+    "networkx>=3.5",
+    "numpy>=2.2.6",
+    "onnx>=1.18.0",
+    "onnxruntime>=1.22.0",
+    "opencv-python-headless>=4.11.0.86",
+    "pillow>=11.2.1",
+    "psutil>=7.0.0",
+    "pywin32>=310 ; sys_platform == 'win32'",
+    "requests>=2.32.3",
+    "rich>=14.0.0",
+    "wget>=3.2",
+]
